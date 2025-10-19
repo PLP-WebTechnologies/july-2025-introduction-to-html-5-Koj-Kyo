@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accessible HTML5 Example — Local Bakery</title>
+  <meta name="description" content="Local Bakery offers fresh bread, pastries, and coffee. Learn about our menu, accessibility features, and how to find us in your neighborhood.">
+  <meta name="keywords" content="bakery, fresh bread, pastries, local cafe, artisan bread, coffee">
+  <link rel="canonical" href="https://example.com/">
+
+</head>
+<body>
+  <header role="banner">
+    <h1>Sunrise Bakery — Fresh Bread & Pastries</h1>
+    <p class="tagline">Baked daily with love in the heart of your neighborhood.</p>
+
+    <nav role="navigation" aria-label="Primary navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#hours">Hours & Location</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="content" role="main">
+    <article aria-labelledby="about-heading">
+      <section id="about">
+        <h2 id="about-heading">About Sunrise Bakery</h2>
+        <p>Sunrise Bakery is a family-owned bakery specializing in artisan breads, sweet pastries, and small-batch coffee. We use locally sourced ingredients and bake every morning to bring you the freshest flavors.</p>
+      </section>
+
+      <section id="menu" aria-labelledby="menu-heading">
+        <h2 id="menu-heading">Our Menu Highlights</h2>
+        <h3>Featured Breads</h3>
+        <ul>
+          <li>Sourdough Loaf — fermented for depth of flavor</li>
+          <li>Whole Wheat — hearty and wholesome</li>
+          <li>Focaccia — rosemary, sea salt</li>
+        </ul>
+
+        <h3>Pastries & Coffee</h3>
+        <ul>
+          <li>Almond Croissant</li>
+          <li>Chocolate Éclair</li>
+          <li>Single-origin espresso</li>
+        </ul>
+
+        <figure>
+          <img src="images/shopfront.jpg" alt="The exterior of Sunrise Bakery with a chalkboard menu and outdoor seating" width="640" height="360">
+          <figcaption>Morning light at Sunrise Bakery — come grab a loaf.</figcaption>
+        </figure>
+      </section>
+
+      <section id="accessibility" aria-labelledby="accessibility-heading">
+        <h2 id="accessibility-heading">Accessibility Information</h2>
+        <p>We strive to make our bakery welcoming to everyone. Highlights for assistive technology users:</p>
+        <ul>
+          <li>Clear, high-contrast signage and tactile markers at the entrance.</li>
+          <li>Wheelchair-accessible entrance and restroom.</li>
+          <li>Allergen information available on request; staff trained to assist customers with dietary needs.</li>
+        </ul>
+      </section>
+
+    </article>
+
+    <aside aria-labelledby="promo-heading" role="complementary">
+      <h2 id="promo-heading">This Week's Special</h2>
+      <p>Buy one loaf of sourdough, get a free small coffee. Offer valid Monday to Friday.</p>
+    </aside>
+
+    <section id="hours" aria-labelledby="hours-heading">
+      <h2 id="hours-heading">Hours & Location</h2>
+      <address>
+        <strong>Sunrise Bakery</strong><br>
+        123 Main Street<br>
+        Hometown, HT 12345<br>
+        <a href="tel:+1234567890">(123) 456-7890</a>
+      </address>
+      <p>Open daily: 7:00 AM — 3:00 PM</p>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact & Social</h2>
+      <p>Questions or catering inquiries? Email us at <a href="mailto:hello@sunrisebakery.example">hello@sunrisebakery.example</a></p>
+      <ul>
+        <li><a href="https://facebook.example.com/sunrisebakery">Facebook</a></li>
+        <li><a href="https://instagram.example.com/sunrisebakery">Instagram</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Sunrise Bakery. All rights reserved.</p>
+    <nav aria-label="Footer navigation">
+      <ul>
+        <li><a href="#privacy">Privacy Policy</a></li>
+        <li><a href="#sitemap">Sitemap</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>
